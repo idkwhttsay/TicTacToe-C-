@@ -12,10 +12,13 @@
 
 class GameEngine {
 public:
-    void Run();
+    int turn;
     GameBoard board;
-private:
     
+    GameEngine();
+    void Run();
+private:
+    void NextTurn();
 };
 
 #endif /* GameEngine_hpp */

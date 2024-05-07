@@ -10,6 +10,7 @@
 		CEF6F7752BE942F10004E5E4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEF6F7742BE942F10004E5E4 /* main.cpp */; };
 		CEF6F77D2BE943F00004E5E4 /* GameEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEF6F77B2BE943F00004E5E4 /* GameEngine.cpp */; };
 		CEF6F7802BE945AA0004E5E4 /* GameBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEF6F77E2BE945AA0004E5E4 /* GameBoard.cpp */; };
+		CEF6F7832BEA02F70004E5E4 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEF6F7812BEA02F70004E5E4 /* Player.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		CEF6F77C2BE943F00004E5E4 /* GameEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameEngine.hpp; sourceTree = "<group>"; };
 		CEF6F77E2BE945AA0004E5E4 /* GameBoard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameBoard.cpp; sourceTree = "<group>"; };
 		CEF6F77F2BE945AA0004E5E4 /* GameBoard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameBoard.hpp; sourceTree = "<group>"; };
+		CEF6F7812BEA02F70004E5E4 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		CEF6F7822BEA02F70004E5E4 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				CEF6F77C2BE943F00004E5E4 /* GameEngine.hpp */,
 				CEF6F77E2BE945AA0004E5E4 /* GameBoard.cpp */,
 				CEF6F77F2BE945AA0004E5E4 /* GameBoard.hpp */,
+				CEF6F7812BEA02F70004E5E4 /* Player.cpp */,
+				CEF6F7822BEA02F70004E5E4 /* Player.hpp */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF6F7832BEA02F70004E5E4 /* Player.cpp in Sources */,
 				CEF6F7752BE942F10004E5E4 /* main.cpp in Sources */,
 				CEF6F7802BE945AA0004E5E4 /* GameBoard.cpp in Sources */,
 				CEF6F77D2BE943F00004E5E4 /* GameEngine.cpp in Sources */,

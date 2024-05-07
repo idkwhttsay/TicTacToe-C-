@@ -14,6 +14,9 @@ public:
     GameBoard();
     void Render();
     void SetPieceAt(int x, int y, char c);
+    char GetPieceAt(int x, int y);
+    bool CheckForTheWinner();
+    bool checkInput(int x, int y);
 private:
     static int BOARD_WIDTH;
     static int BOARD_HEIGHT;
